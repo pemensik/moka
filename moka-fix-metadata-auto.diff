@@ -1,5 +1,5 @@
 --- moka-0.12.8/Cargo.toml	1970-01-01T00:00:01+00:00
-+++ moka-0.12.8/Cargo.toml	2024-08-03T23:18:53.830504+00:00
++++ moka-0.12.8/Cargo.toml	2024-08-03T23:37:34.054063+00:00
 @@ -213,8 +213,3 @@
  sync = []
  unstable-debug-counters = ["future"]

@@ -190,17 +190,17 @@ use the "unstable-debug-counters" feature of the "%{crate}" crate.
 %cargo_prep
 
 %generate_buildrequires
-%cargo_generate_buildrequires
+%cargo_generate_buildrequires -f future,sync
 
 %build
-%cargo_build
+%cargo_build -f future,sync
 
 %install
-%cargo_install
+%cargo_install -f future,sync
 
 %if %{with check}
 %check
-%cargo_test
+%cargo_test -f future,sync
 %endif
 
 %changelog

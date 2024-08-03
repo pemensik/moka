@@ -1,0 +1,2 @@
+[features]
+enable = [ "sync", "future" ]
